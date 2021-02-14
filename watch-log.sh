@@ -1,0 +1,1 @@
+tail -f $1| pv -l -i10 -r -f 2>&1 >/dev/null | tr /\\r \ \\n
